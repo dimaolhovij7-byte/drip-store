@@ -1,0 +1,397 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090909">
+  <title>DRIP STORE — Streetwear & Sneakers</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+  <a href="#" class="logo">DRIP<span>STORE</span></a>
+
+  <nav class="navigation">
+    <a href="#catalog">Каталог</a>
+    <a href="#about">О магазине</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+
+  <button class="cart-button" type="button">
+    Корзина <span id="cart-count">0</span>
+  </button>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="eyebrow">NEW GENERATION STREETWEAR</p>
+    <h1>YOUR STYLE.<br>YOUR RULES.</h1>
+    <p class="hero-description">
+      Кроссовки, одежда и бренды, которые выделяют тебя из толпы.
+    </p>
+    <a href="#catalog" class="shop-button">СМОТРЕТЬ КАТАЛОГ ↗</a>
+    <div class="hero-label">SNEAKERS / STREETWEAR / CULTURE</div>
+  </section>
+
+  <section class="catalog" id="catalog">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">SELECTED ITEMS</p>
+        <h2>КАТАЛОГ</h2>
+      </div>
+      <p class="catalog-note">Выбери свой стиль.</p>
+    </div>
+
+    <div class="catalog-container">
+      <aside class="sidebar">
+        <div class="filter-group">
+          <h3 class="filter-title">Категория</h3>
+          <ul class="filter-list">
+            <li><a href="#" class="filter-link category-filter active" id="filter-all">Все вещи</a></li>
+            <li><a href="#" class="filter-link category-filter" id="filter-krossovki">Кроссовки</a></li>
+            <li><a href="#" class="filter-link category-filter" id="filter-kurtki">Куртки</a></li>
+            <li><a href="#" class="filter-link category-filter" id="filter-kofty">Кофты / Зипки</a></li>
+            <li><a href="#" class="filter-link category-filter" id="filter-shtany">Штаны</a></li>
+            <li><a href="#" class="filter-link category-filter" id="filter-futbolki">Футболки</a></li>
+          </ul>
+        </div>
+
+        <div class="filter-group">
+          <h3 class="filter-title">Бренд</h3>
+          <ul class="filter-list">
+            <li><a href="#" class="filter-link brand-filter active" id="brand-all">Все бренды</a></li>
+            <li><a href="#" class="filter-link brand-filter" id="brand-nike">Nike</a></li>
+            <li><a href="#" class="filter-link brand-filter" id="brand-jordan">Air Jordan</a></li>
+            <li><a href="#" class="filter-link brand-filter" id="brand-valentino">Valentino</a></li>
+            <li><a href="#" class="filter-link brand-filter" id="brand-balenciaga">Balenciaga</a></li>
+            <li><a href="#" class="filter-link brand-filter" id="brand-offwhite">Off-White</a></li>
+            <li><a href="#" class="filter-link brand-filter" id="brand-lanvin">Lanvin</a></li>
+            <li><a href="#" class="filter-link brand-filter" id="brand-stoneisland">Stone Island</a></li>
+            <li><a href="#" class="filter-link brand-filter" id="brand-adidas">Adidas</a></li>
+            <li><a href="#" class="filter-link brand-filter" id="brand-chromehearts">Chrome Hearts</a></li>
+            <li><a href="#" class="filter-link brand-filter" id="brand-moncler">Moncler</a></li>
+            <li><a href="#" class="filter-link brand-filter" id="brand-cpcompany">C.P. Company</a></li>
+            <li><a href="#" class="filter-link brand-filter" id="brand-gallerydept">Gallery Dept.</a></li>
+            <li><a href="#" class="filter-link brand-filter" id="brand-philippplein">Philipp Plein</a></li>
+            <li><a href="#" class="filter-link brand-filter" id="brand-maisonmargiela">Maison Margiela</a></li>
+            <li><a href="#" class="filter-link brand-filter" id="brand-rickowens">Rick Owens</a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="products-wrapper">
+        <div class="products">
+
+          <!-- КРОССОВКИ -->
+
+          <article class="product" data-category="krossovki" data-brand="nike">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=NIKE+AIR+MAX" alt="Nike Air Max" loading="lazy">
+            </div>
+            <p class="product-category">NIKE</p>
+            <h3>Nike Air Max</h3>
+            <p class="product-details">Размеры: 40–43</p>
+            <p class="product-price">6 200 грн</p>
+            <button class="product-button" type="button">ДОБАВИТЬ В КОРЗИНУ</button>
+          </article>
+
+          <article class="product" data-category="krossovki" data-brand="jordan">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=AIR+JORDAN+1" alt="Air Jordan 1" loading="lazy">
+            </div>
+            <p class="product-category">AIR JORDAN</p>
+            <h3>Air Jordan 1 High</h3>
+            <p class="product-details">Размеры: 41, 42, 45</p>
+            <p class="product-price">8 500 грн</p>
+            <button class="product-button" type="button">ДОБАВИТЬ В КОРЗИНУ</button>
+          </article>
+
+          <article class="product" data-category="krossovki" data-brand="valentino">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=VALENTINO" alt="Valentino Sneakers" loading="lazy">
+            </div>
+            <p class="product-category">VALENTINO</p>
+            <h3>Valentino Open Sneakers</h3>
+            <p class="product-details">Размеры: 41–43</p>
+            <p class="product-price">28 000 грн</p>
+            <button class="product-button" type="button">ДОБАВИТЬ В КОРЗИНУ</button>
+          </article>
+
+          <article class="product" data-category="krossovki" data-brand="balenciaga">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=BALENCIAGA" alt="Balenciaga Triple S" loading="lazy">
+            </div>
+            <p class="product-category">BALENCIAGA</p>
+            <h3>Balenciaga Triple S</h3>
+            <p class="product-details">Размеры: 40, 42, 44</p>
+            <p class="product-price">34 500 грн</p>
+            <button class="product-button" type="button">ДОБАВИТЬ В КОРЗИНУ</button>
+          </article>
+
+          <article class="product" data-category="krossovki" data-brand="offwhite">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=OFF-WHITE" alt="Off-White Out Of Office" loading="lazy">
+            </div>
+            <p class="product-category">OFF-WHITE</p>
+            <h3>Off-White Out Of Office</h3>
+            <p class="product-details">Размеры: 42–44</p>
+            <p class="product-price">19 800 грн</p>
+            <button class="product-button" type="button">ДОБАВИТЬ В КОРЗИНУ</button>
+          </article>
+
+          <article class="product" data-category="krossovki" data-brand="lanvin">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=LANVIN+CURB" alt="Lanvin Curb" loading="lazy">
+            </div>
+            <p class="product-category">LANVIN</p>
+            <h3>Lanvin Curb Sneakers</h3>
+            <p class="product-details">Размеры: 41, 43</p>
+            <p class="product-price">31 000 грн</p>
+            <button class="product-button" type="button">ДОБАВИТЬ В КОРЗИНУ</button>
+          </article>
+
+          <article class="product" data-category="krossovki" data-brand="adidas">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=ADIDAS" alt="Adidas Sneakers" loading="lazy">
+            </div>
+            <p class="product-category">ADIDAS</p>
+            <h3>Adidas Sneakers</h3>
+            <p class="product-details">Размеры: 41–44</p>
+            <p class="product-price">9 200 грн</p>
+            <button class="product-button" type="button">ДОБАВИТЬ В КОРЗИНУ</button>
+          </article>
+
+          <article class="product" data-category="krossovki" data-brand="maisonmargiela">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=MAISON+MARGIELA" alt="Maison Margiela Replica" loading="lazy">
+            </div>
+            <p class="product-category">MAISON MARGIELA</p>
+            <h3>Maison Margiela Replica</h3>
+            <p class="product-details">Размеры уточняются</p>
+            <p class="product-price">Цена уточняется</p>
+            <button class="product-button" type="button">УЗНАТЬ ПОДРОБНЕЕ</button>
+          </article>
+
+          <article class="product" data-category="krossovki" data-brand="rickowens">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=RICK+OWENS" alt="Rick Owens Geobasket" loading="lazy">
+            </div>
+            <p class="product-category">RICK OWENS</p>
+            <h3>Rick Owens Geobasket</h3>
+            <p class="product-details">Размеры уточняются</p>
+            <p class="product-price">Цена уточняется</p>
+            <button class="product-button" type="button">УЗНАТЬ ПОДРОБНЕЕ</button>
+          </article>
+
+          <!-- КУРТКИ -->
+
+          <article class="product" data-category="kurtki" data-brand="moncler">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=MONCLER" alt="Moncler Jacket" loading="lazy">
+            </div>
+            <p class="product-category">MONCLER</p>
+            <h3>Moncler Jacket</h3>
+            <p class="product-details">Размеры: S–XL</p>
+            <p class="product-price">Цена уточняется</p>
+            <button class="product-button" type="button">УЗНАТЬ ПОДРОБНЕЕ</button>
+          </article>
+
+          <article class="product" data-category="kurtki" data-brand="stoneisland">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=STONE+ISLAND" alt="Stone Island Jacket" loading="lazy">
+            </div>
+            <p class="product-category">STONE ISLAND</p>
+            <h3>Stone Island Jacket</h3>
+            <p class="product-details">Размеры: M–XL</p>
+            <p class="product-price">Цена уточняется</p>
+            <button class="product-button" type="button">УЗНАТЬ ПОДРОБНЕЕ</button>
+          </article>
+
+          <!-- C.P. COMPANY: КУРТКА -->
+
+          <article class="product" data-category="kurtki" data-brand="cpcompany">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=CP+COMPANY+JACKET" alt="C.P. Company Jacket" loading="lazy">
+            </div>
+            <p class="product-category">C.P. COMPANY</p>
+            <h3>C.P. Company Jacket</h3>
+            <p class="product-details">Размеры уточняются</p>
+            <p class="product-price">Цена уточняется</p>
+            <button class="product-button" type="button">УЗНАТЬ ПОДРОБНЕЕ</button>
+          </article>
+
+          <!-- КОФТЫ / ЗИПКИ -->
+
+          <article class="product" data-category="kofty" data-brand="valentino">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=VALENTINO+HOODIE" alt="Valentino Hoodie" loading="lazy">
+            </div>
+            <p class="product-category">VALENTINO</p>
+            <h3>Valentino Hoodie</h3>
+            <p class="product-details">Размеры: S–L</p>
+            <p class="product-price">Цена уточняется</p>
+            <button class="product-button" type="button">УЗНАТЬ ПОДРОБНЕЕ</button>
+          </article>
+
+          <article class="product" data-category="kofty" data-brand="offwhite">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=OFF-WHITE+HOODIE" alt="Off-White Hoodie" loading="lazy">
+            </div>
+            <p class="product-category">OFF-WHITE</p>
+            <h3>Off-White Arrow Hoodie</h3>
+            <p class="product-details">Размеры: M–XL</p>
+            <p class="product-price">Цена уточняется</p>
+            <button class="product-button" type="button">УЗНАТЬ ПОДРОБНЕЕ</button>
+          </article>
+
+          <article class="product" data-category="kofty" data-brand="stoneisland">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=STONE+ISLAND+ZIP" alt="Stone Island Zip Hoodie" loading="lazy">
+            </div>
+            <p class="product-category">STONE ISLAND</p>
+            <h3>Stone Island Zip Hoodie</h3>
+            <p class="product-details">Размеры: M–XL</p>
+            <p class="product-price">Цена уточняется</p>
+            <button class="product-button" type="button">УЗНАТЬ ПОДРОБНЕЕ</button>
+          </article>
+
+          <article class="product" data-category="kofty" data-brand="chromehearts">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=CHROME+HEARTS" alt="Chrome Hearts Hoodie" loading="lazy">
+            </div>
+            <p class="product-category">CHROME HEARTS</p>
+            <h3>Chrome Hearts Zip Hoodie</h3>
+            <p class="product-details">Размеры: S–XL</p>
+            <p class="product-price">Цена уточняется</p>
+            <button class="product-button" type="button">УЗНАТЬ ПОДРОБНЕЕ</button>
+          </article>
+
+          <article class="product" data-category="kofty" data-brand="cpcompany">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=CP+COMPANY+SWEATSHIRT" alt="C.P. Company Sweatshirt" loading="lazy">
+            </div>
+            <p class="product-category">C.P. COMPANY</p>
+            <h3>C.P. Company Sweatshirt</h3>
+            <p class="product-details">Размеры: M–XL</p>
+            <p class="product-price">Цена уточняется</p>
+            <button class="product-button" type="button">УЗНАТЬ ПОДРОБНЕЕ</button>
+          </article>
+
+          <!-- ШТАНЫ -->
+
+          <article class="product" data-category="shtany" data-brand="gallerydept">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=GALLERY+DEPT" alt="Gallery Dept Pants" loading="lazy">
+            </div>
+            <p class="product-category">GALLERY DEPT.</p>
+            <h3>Gallery Dept. Pants</h3>
+            <p class="product-details">Размеры: S–XL</p>
+            <p class="product-price">Цена уточняется</p>
+            <button class="product-button" type="button">УЗНАТЬ ПОДРОБНЕЕ</button>
+          </article>
+
+          <article class="product" data-category="shtany" data-brand="stoneisland">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=STONE+ISLAND+PANTS" alt="Stone Island Pants" loading="lazy">
+            </div>
+            <p class="product-category">STONE ISLAND</p>
+            <h3>Stone Island Pants</h3>
+            <p class="product-details">Размеры: M–XL</p>
+            <p class="product-price">Цена уточняется</p>
+            <button class="product-button" type="button">УЗНАТЬ ПОДРОБНЕЕ</button>
+          </article>
+
+          <article class="product" data-category="shtany" data-brand="philippplein">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=PHILIPP+PLEIN" alt="Philipp Plein Pants" loading="lazy">
+            </div>
+            <p class="product-category">PHILIPP PLEIN</p>
+            <h3>Philipp Plein Pants</h3>
+            <p class="product-details">Размеры: S–XL</p>
+            <p class="product-price">Цена уточняется</p>
+            <button class="product-button" type="button">УЗНАТЬ ПОДРОБНЕЕ</button>
+          </article>
+
+          <!-- ФУТБОЛКИ -->
+
+          <article class="product" data-category="futbolki" data-brand="nike">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=NIKE+TEE" alt="Nike T-shirt" loading="lazy">
+            </div>
+            <p class="product-category">NIKE</p>
+            <h3>Nike Graphic T-shirt</h3>
+            <p class="product-details">Размеры: S–XL</p>
+            <p class="product-price">Цена уточняется</p>
+            <button class="product-button" type="button">УЗНАТЬ ПОДРОБНЕЕ</button>
+          </article>
+
+          <article class="product" data-category="futbolki" data-brand="offwhite">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=OFF-WHITE+TEE" alt="Off-White T-shirt" loading="lazy">
+            </div>
+            <p class="product-category">OFF-WHITE</p>
+            <h3>Off-White Graphic T-shirt</h3>
+            <p class="product-details">Размеры: M–XL</p>
+            <p class="product-price">Цена уточняется</p>
+            <button class="product-button" type="button">УЗНАТЬ ПОДРОБНЕЕ</button>
+          </article>
+
+          <article class="product" data-category="futbolki" data-brand="philippplein">
+            <div class="product-image">
+              <img src="https://placehold.co/600x450/171717/b7ff00?text=PHILIPP+PLEIN+TEE" alt="Philipp Plein T-shirt" loading="lazy">
+            </div>
+            <p class="product-category">PHILIPP PLEIN</p>
+            <h3>Philipp Plein T-shirt</h3>
+            <p class="product-details">Размеры: S–XL</p>
+            <p class="product-price">Цена уточняется</p>
+            <button class="product-button" type="button">УЗНАТЬ ПОДРОБНЕЕ</button>
+          </article>
+
+        </div>
+
+        <p class="no-products" id="no-products" hidden>
+          По выбранным фильтрам товаров нет.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section" id="about">
+    <p class="eyebrow">ABOUT DRIP STORE</p>
+    <h2>LESS TALK.<br>MORE STYLE.</h2>
+    <p class="about-text">
+      DRIP STORE — концепция магазина streetwear, кроссовок
+      и одежды популярных брендов. Выбирай категорию, изучай каталог
+      и находи свой стиль.
+    </p>
+  </section>
+</main>
+
+<footer class="contacts-section" id="contacts">
+  <div class="footer-top">
+    <a href="#" class="logo">DRIP<span>STORE</span></a>
+    <p>STREETWEAR FOR YOUR OWN RULES.</p>
+  </div>
+
+  <div class="contacts-grid">
+    <div class="contacts-item">
+      <h4>КОНТАКТЫ</h4>
+      <p>Связь с магазином</p>
+      <a class="telegram-link" href="https://t.me/" target="_blank" rel="noopener noreferrer">
+        TELEGRAM ↗
+      </a>
+    </div>
+    <div class="contacts-item">
+      <h4>КАТАЛОГ</h4>
+      <a href="#catalog">Все товары</a>
+    </div>
+  </div>
+
+  <p class="copyright">© 2026 DRIP STORE. DEMO STORE.</p>
+</footer>
+
+</body>
+</html>
